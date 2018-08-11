@@ -1,8 +1,13 @@
+/**
+ *Copy and Paste this
+ */
 package com.example.android.practiceset2;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,8 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        String name = "Katherine";
-
+        int day1 = 15;
+        int day2 = 22;
+        int day3 = 18;
+        display(day1 + day2 + day3 / 3);
     }
 
     /**
